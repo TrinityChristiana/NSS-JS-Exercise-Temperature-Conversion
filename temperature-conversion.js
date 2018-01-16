@@ -9,16 +9,16 @@ Date Edited: 1/14/2018 */
 // Output the temperature in Fahrenheit to the console
 
 function calculateFahrenheit(celsius){
-    var fahrenheit = (celsius * 1.8) + 32
-    console.log(`You entered ${celsius}º Celsius. That converts to ${fahrenheit}º Fahrenheit.`)
+    var fahrenheit = (celsius * 1.8) + 32;
+    console.log(`You entered ${celsius}º Celsius. That converts to ${fahrenheit}º Fahrenheit.`);
 }
 // Fahrenheit to Celsius
 // Write a function that takes the temperature in Fahrenheit as the parameter
 // The function should do the following calculation to get the temperature in Celsius: T(C) = (T(F) - 32) / 1.8
 // Output the temperature in Celsius to the console
 function calculateCelsius(fahrenheit){
-    var celsius = (fahrenheit - 32) /1.8
-    console.log(`You entered ${fahrenheit}º Fahrenheit. That converts to ${celsius}º Celsius.`)
+    var celsius = (fahrenheit - 32) /1.8;
+    console.log(`You entered ${fahrenheit}º Fahrenheit. That converts to ${celsius}º Celsius.`);
 }
 
 calculateCelsius(32);
